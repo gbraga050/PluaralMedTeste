@@ -1,0 +1,24 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap";
+
+* {
+    margin: 0;
+    padding: 0
+}
+:root {
+    --azul-claro2: #00C2C2;
+    --azul-ciano: #036578;
+    --azul-ciano2: #00657A;
+    --azul-claro: #44C7C7;
+    --azul-escuro: #1F3672;
+    --cinza-claro: #727272;
+    --branco: #fff
+}
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    width: 100%;
+    color: var(--azul-ciano2);
+}
+.sticky {
+ background-color: white;
+ z-index: 9;
+}

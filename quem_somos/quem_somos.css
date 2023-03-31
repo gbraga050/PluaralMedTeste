@@ -1,0 +1,451 @@
+@media (max-width: 1950px) {
+
+    header {
+        height: 75px
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    .container_geral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        gap: 30px;
+    }
+    .container_conteudo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .container_texto_conteudo-1, .container_imagem_conteudo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        height: 100%;
+        width: 565px;
+    }
+    .span_texto-1 {
+        color: var(--azul-ciano2);
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .span_foco {
+        text-transform: uppercase;
+        color: var(--azul-ciano2);
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .container_conteudo-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+    .container_texto_conteudo-2 {
+        font-weight: 400;
+        text-align: center;
+        color: var(--azul-ciano2);
+        font-size: 2.5rem;
+    }
+    .container_video_conteudo-2 {
+        width: 100%;
+        height: 100%;  
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+    .container_imagem_circulos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_imagem_circulos > img {
+        width: 100%;
+    }
+    /* Conteudo 3 - Missão/Valores/etc */
+    .container_conteudo-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%; 
+        gap: 50px;
+    }
+    .container_texto_conteudo-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .span_texto-3 {
+        color: var(--azul-ciano2);
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .hr1 {
+        border: 1px solid var(--azul-ciano2);
+        width: 100%;
+    }
+    .container_imagens_quem-somos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container_imagens_quem-somos > img:first-child {
+        margin-bottom: 10px;
+    }
+
+    /* Conteudo 4 - Equipe */
+
+    .container_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%; 
+        gap: 10px;
+    }
+    .container_foco_texto_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .span_foco_texto-4 {
+        color: var(--azul-ciano2);
+        font-weight: 900;
+        line-height: 12px;
+        font-size: 2.1875rem;
+        text-align: center;
+        display: flex;
+        line-height: 36px;
+        letter-spacing: -.02em;
+        padding: 70px;
+    }
+    .container_video_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        gap: 10px;
+    }
+    .span_texto-4 {
+        display: flex;
+        font-size: 2.1875rem;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0;
+        text-align: center;
+        color: var(--azul-ciano2);
+        padding: 70px;
+    }
+    .container_texto_conteudo-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px
+    }
+    
+    .footer_controller {
+        display: flex
+    }
+
+    .container_footer_quem-somos {
+        width: 100%;
+        height: 84rem;
+        display: inline-block;
+        position: relative;
+    }
+
+    .footer_quem-somos>img {
+        width: 100%;
+    }
+
+    .area_text_footer-1 {
+        width: 320px;
+        height: 200px;
+        position: absolute;
+        top: 2%;
+        left: 9%;
+    }
+
+    .text_footer-1 {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 41px;
+        letter-spacing: -.025em;
+        color: var(--azul-ciano)
+    }
+
+    .text_footer-1>span {
+        color: var(--branco)
+    }
+
+    .area_text_footer-3 {
+        width: 350px;
+        height: 237.75px;
+        position: absolute;
+        top: 1100px;
+        left: 125px;
+    }
+
+    .text_footer-3 {
+        font-size: 5rem;
+        font-weight: 900;
+        line-height: 99px;
+        text-align: left;
+        color: var(--azul-ciano);
+        text-transform: uppercase
+    }
+}
+
+@media (max-width: 1024px) {
+    .imagem_logo {
+        display: none   ;
+    }
+}
+
+@media (max-width: 767px) {
+    .imagem_logo {
+        display: block;
+    } 
+    header {
+        height: 70px
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    .container_geral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        gap: 10px;
+    }
+
+    /* Conteudo 1 - Apresentação */
+    .container_conteudo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .container_texto_conteudo-1, .container_imagem_conteudo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        height: 100%;
+        width: 100%;
+    }
+    .span_texto-1 {
+        color: var(--azul-ciano2);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .span_foco {
+        color: var(--azul-ciano2);
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    /* Conteudo 2 - Descrição da empresa */
+    .container_conteudo-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .container_texto_conteudo-2 {
+        color: var(--azul-ciano2);
+        font-size: 0.85rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .container_video_conteudo-2 {
+        width: 100%;
+        height: 100%;         
+    }
+    .container_imagem_circulos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_imagem_circulos > img {
+        width: 100%;
+    }
+
+    /* Conteudo 3 - Missão/Valores/etc */
+    .container_conteudo-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%; 
+        gap: 10px;
+    }
+    .container_texto_conteudo-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .span_texto-3 {
+        color: var(--azul-ciano2);
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    .hr1 {
+        border: 1px solid var(--azul-ciano2);
+        width: 100%;
+    }
+    .container_imagens_quem-somos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container_imagens_quem-somos > img:first-child {
+        margin-bottom: 10px;
+    }
+
+    /* Conteudo 4 - Equipe */
+
+    .container_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%; 
+        gap: 10px;
+    }
+    .container_foco_texto_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .span_foco_texto-4 {
+        color: var(--azul-ciano2);
+        font-size: 0.7rem;
+        font-weight: 900;
+        line-height: 12px;
+        padding: 0;
+    }
+    .container_video_conteudo-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        gap: 10px;
+    }
+    .span_texto-4 {
+        color: var(--azul-ciano2);
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding: 0;
+        line-height: 15px;
+        margin: 10px 0;
+    }
+    .container_texto_conteudo-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px
+    }
+    .footer_controller {
+        display: flex
+    }
+    .container_footer_quem-somos {
+        width: 100%;
+        height: 350px;
+        display: inline-block;
+        position: relative  
+    }
+    .container_footer_quem-somos > img {
+        width: 100%
+    }
+    .area_text_footer-1 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+        left: 35px;
+        line-height: 70%;
+    }
+    .text_footer-1 {
+        font-size: 0.7rem;
+        font-weight: 800;
+        color: var(--azul-ciano);
+        line-height: 0; 
+    }
+    .text_footer-1 > span {
+        color: var(--branco);
+    }
+    .area_text_footer-2 {
+        width: 170px;
+        height: 500px;
+        position: absolute;
+        top: 10px;
+        left: 160px;
+    }
+    .text_footer-2 {
+        font-size: 0.7rem;
+        line-height: 1px;
+        font-weight: 700;
+        color: var(--branco);
+    }
+    .area_text_footer-3 {
+        width: 100px;
+        position: absolute;
+        top: 280px;
+        left: 30px;
+        height: 60px;
+    }
+    .text_footer-3 {
+        font-size: 1.4rem;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: left;
+        color: var(--azul-ciano);
+        text-transform: uppercase
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluralmed</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/globalStyles.css">
+    <link rel="stylesheet" href="./contato.css">
+    
+    
+</head>
+
+<body>
+  <header>
+    <nav class="px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 dark:border-gray-600 bg-nav transition duration-300 shadow-md bg-white">
+        <div class="container flex flex-wrap items-center justify-between mx-auto " >
+          <a href="../home/index.html" class="flex items-center " >
+            <img src="../../img/Logo.png" class="h-6 mr-3 sm:h-9 imagem_logo" alt="Pluralmed">
+          </a>
+        <div class="flex md:order-2 " >
+          <a href="../contato/contato.html"><button type="button" class="text-white bg-cyan-800 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 lg:--azul-ciano">Contato</button></a>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-cyan-800 rounded-lg md:hidden bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 lg:bg-transparent" id="navbar-sticky">
+          <ul class="lg:bg-transparent flex flex-col p-4 mt-4 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="../home/index.html" class="block py-2 pl-3 pr-4 text-white bg-cyan-800 rounded md:bg-transparent md:text-cyan-800 md:p-0 dark:cyan-800" aria-current="page">Inicio</a>
+            </li>
+            <li>
+              <a href="../servicos/servicos.html" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:cyan-800 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Serviços</a>
+            </li>
+            <li>
+              <a href="../quem_somos/quem_somos.html" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:cyan-800 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Quem somos</a>
+            </li>
+            <li>
+              <a href="../selecoes/selecoes.html" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:cyan-800 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Seleções</a>
+            </li>
+            <li>
+              <a href="../transparencia/transparencia.html" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:cyan-800 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Transparência</a>
+            </li>
+            <!-- <li><a href="../sala_de_imprensa/sala_de_imprensa.html" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:cyan-800 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sala de imprensa</a></li> -->
+          </ul>
+        </div>
+        </div>  
+      </nav>
+</header>
+
+    <main class="container_main">
+      <div class="controler_area-mapa">
+        <div class="area_mapa"> 
+            <img src="../../img/contato/img1.png">
+            <div class="area_text-mapa"> <span>R. Conselheiro José Júlio, 386 - Centro</span> <span>Sobral - CE, 62010-820</span> 
+        </div>
+        </div>
+    </div>
+    <div class="contatos">
+        <h1>Contato</h1>
+          <div class="area_form">
+        <form target="_blank" action="https://formsubmit.co/desenvolvimento@pluralmed.com.br" method="POST" class="form"> 
+            <input type="text" name="nome" placeholder="Nome" id="nome" required> <input type="email" name="email" placeholder="Email" id="email" required> 
+            <input type="tel" name="telefone" placeholder="Telefone" id="telefone" required>
+            <div class="form-group"> 
+                <textarea placeholder="Sua Mensagem" name="mensagem" required></textarea>
+            </div> 
+            <button type="submit" class="btn_enviar">Enviar</button>
+        </form>
+      </div>
+      
+      <div class="area_informacoes">
+            <p class="info_form">*Se não possui todas as informações necessárias para o preenchimento dos campos acima,
+            entre em contato com o e-mail relacionamento@pluralmed.com.br nos horários de atendimento: segunda à
+            sexta das 08h às 12h e das 13h30 às 17h30</p>
+
+        <div class="telefones"> <span>Telefone pra Contato</span>
+            <div class="telefone"> 
+                <span>+55 88 9 9307-1376</span><br>
+                <span>+55 88 9 9307-1376</span> 
+            </div>
+        </div>
+
+        <div class="colaborador"> 
+            <span class="text_colaborador-1">Área do Colaborador</span> 
+            <span class="text_colaborador-2">Coloque dicas, sugestões e comentários</span>
+            <form target="_blank" action="https://formsubmit.co/desenvolvimento@pluralmed.com.br" method="POST" class="form">
+                <div class="form-group"> 
+                    <textarea placeholder="Sua Mensagem" name="mensagem" required></textarea>
+                    <button type="submit" class="btn_enviar2">Enviar</button> 
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    </main>
+    <div vw class="enabled z-10">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div> 
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <style>
+      .access-button {
+        width: 40% !important;
+        border-radius: 50px !important;
+        border: 5px solid #ffffff1f !important;
+      }
+    </style>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
